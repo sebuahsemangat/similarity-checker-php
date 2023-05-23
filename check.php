@@ -42,6 +42,6 @@ function similarity($str1, $str2) {
   // Contoh penggunaan
   $str1 = $text1;
   $str2 = $text2;
-  $similarity = similarity($str1, $str2);
+  $similarity = round(similarity($str1, $str2));
   
-  echo "The similarity is: {$similarity} %";
+  echo "The similarity is: {$similarity}%";
