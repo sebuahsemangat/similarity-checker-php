@@ -7,7 +7,7 @@
     <title>Similarity Checker</title>
 </head>
 <body>
-    <h2>Similarity Checker</h2>
+    <h2>Similarity Checker!</h2>
     <p>Check the similarity between 2 text!</p>
     <form action="check.php" method="post">
         Text 1: <textarea name="text1" id="" cols="30" rows="10"></textarea>
